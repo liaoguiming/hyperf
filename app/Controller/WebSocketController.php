@@ -12,6 +12,7 @@ use Swoole\Websocket\Frame;
 use Hyperf\Utils\ApplicationContext;
 use Swoole\WebSocket\Server as WebSocketServer;
 
+//1
 class WebSocketController implements OnMessageInterface, OnOpenInterface, OnCloseInterface
 {
     private $redis = null;
