@@ -10,7 +10,6 @@ use Swoole\Http\Request;
 use Swoole\Server;
 use Swoole\Websocket\Frame;
 use Hyperf\Utils\ApplicationContext;
-use Swoole\WebSocket\Server as WebSocketServer;
 
 class WebSocketController implements OnMessageInterface, OnOpenInterface, OnCloseInterface
 {
